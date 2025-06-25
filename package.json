@@ -1,15 +1,19 @@
 {
   "name": "quantum-proof-hash",
   "version": "1.0.0",
+  "description": "A quantum-resilient password hashing library using Argon2 + AES-256",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "argon2": "^0.43.0"
+  "keywords": ["hashing", "argon2", "quantum", "encryption", "security"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akashadubey/quantum-proof-hash"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
